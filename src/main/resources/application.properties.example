@@ -1,0 +1,43 @@
+spring.main.banner-mode=off
+logging.level.org.springframework=ERROR
+
+# Postgres Settings
+spring.datasource.url=
+spring.datasource.username=
+spring.datasource.password=
+
+spring.datasource.name=
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+server.error.path=/error
+
+spring.messages.fallback-to-system-locale=false
+
+server.error.whitelabel.enabled=false
+
+# OAuth2
+oauth2.client-id=
+oauth2.client-secret=
+oauth2.token-uri=
+oauth2.user-info-uri=
+oauth2.authorization-uri=
+oauth2.user-name-attribute=
+
+# Redis
+spring.redis.host=
+spring.redis.port=
+
+## Quiz Settings
+
+# At what interval do you 'know' a student?
+quiz.intervalKnown = 100
+quiz.usergradeifwrong = 0
+
+# Forwarded Headers
+server.forward-headers-strategy=FRAMEWORK
+
+# FOR DEBUGGING INFO
+#spring.jpa.show-sql=true
+#spring.jpa.properties.hibernate.format_sql=truespring.mvc.hiddenmethod.filter.enabled=true

@@ -1,0 +1,22 @@
+services:
+  app:
+    environment:
+      SPRING_APPLICATION_JSON: '{
+        "oauth2.client-id": "",
+        "oauth2.client-secret": "",
+        "oauth2.token-uri": "",
+        "oauth2.user-info-uri": "",
+        "oauth2.authorization-uri": "",
+        "oauth2.user-name-attribute": "",
+        "spring.datasource.url": "",
+        "spring.datasource.username": "",
+        "spring.datasource.password": "",
+        "spring.datasource.name": "",
+        "spring.redis.host": "",
+        "spring.redis.port":
+      }'
+  database:
+    environment:
+      - POSTGRES_USER=quizapp
+      - POSTGRES_PASSWORD=Welkom01
+      - POSTGRES_DB=quiz_app_db

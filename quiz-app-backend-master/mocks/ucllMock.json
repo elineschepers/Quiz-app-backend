@@ -1,0 +1,53 @@
+{
+  "request": {
+    "method": "GET",
+    "path": "/student/my"
+  },
+  "response": {
+    "body": [
+      {
+        "oalId": 1,
+        "olaSummary": "M-Afstudeerproject: 2022",
+        "eventsOfOla": [
+          {
+            "olaId": 1,
+            "eventCode": "Team-8",
+            "eventSummary": "Team 8",
+            "students": [
+              {
+                "personId": "1",
+                "lastName": "Coorens",
+                "firstName": "Kevin",
+                "photoUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t31.18172-8/17966998_10211274058919251_313680695862412297_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=_ULn4x1DmnMAX_QF2cf&_nc_ht=scontent-bru2-1.xx&oh=00_AT_gqEp5wVJWbg6DdzTEV_mgbuShSSInpBfMHhG2yvx9ug&oe=623557AC"
+              },
+              {
+                "personId": "2",
+                "lastName": "Geeraerts",
+                "firstName": "Quinten",
+                "photoUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t31.18172-8/17309918_1856822641207714_5308407144942035583_o.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=G7Vm01aFe4MAX8G1HRz&_nc_ht=scontent-bru2-1.xx&oh=00_AT8VRhVO6dvzFrBjiil8WnlSBFSyv1aYVAMnVjE2X95Yzw&oe=62370190"
+              },
+              {
+                "personId": "3",
+                "lastName": "Scherens",
+                "firstName": "Ward",
+                "photoUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t1.6435-1/p480x480/67235280_2424822070920475_1243900100325933056_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=7206a8&_nc_ohc=Q_vOdZiWwFoAX_wK0Xq&_nc_ht=scontent-bru2-1.xx&oh=00_AT-hC2iJ8JztdXEgGz9Jp8DBoMZl5R19KVFM6l4ucusR5A&oe=623729A4"
+              },
+              {
+                "personId": "4",
+                "lastName": "Schepers",
+                "firstName": "Eline",
+                "photoUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t39.30808-6/215924383_10215764177696417_4481845172357788042_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6ouPukxz1sUAX_teHZ1&_nc_ht=scontent-bru2-1.xx&oh=00_AT8ezjbSQdPSmMSpRdS8Mt5G2IyGK_wWHYv7snm394bqzw&oe=621C6CA5"
+              },
+              {
+                "personId": "5",
+                "lastName": "Seldeslachts",
+                "firstName": "Sigfried",
+                "photoUrl": "https://scontent-bru2-1.xx.fbcdn.net/v/t1.6435-9/90692371_2885816074828156_6425362819612409856_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=By8iWhifoc4AX9a4OL5&_nc_ht=scontent-bru2-1.xx&oh=00_AT_--5D8LiMCndRvIX31UCUbk6r3nR6sIwfmGEWgxdsNUg&oe=62358B74"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }}
+
